@@ -1,0 +1,38 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+div.grey_box{
+    background-color: #23434d;
+    margin: -8px;
+    padding: 1px;
+
+}
+
+div.orange_box{
+    background-color: #b97d2d;
+    margin: -8px;
+    padding: 50px;
+
+}
+
+div.white_box{
+    background-color: white;
+    margin: -8px;
+    padding: 25px;
+
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+div.box_in_a_box{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+    color: black;
+
+}
