@@ -4,25 +4,80 @@ body{
     color: white;
 }
 
-div.grey_box{
+
+
+div.grey_box_1 {
     background-color: #23434d;
     margin: -8px;
-    padding: 1px;
-
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
 }
+
+div.content_grey_box_1 {
+    display: flex;
+    align-items: center;
+}
+
+div.content_grey_box_2 {
+    display: flex;
+    align-items: center; 
+}
+
+.content_grey_box_2 p {
+    margin-left: 20px;
+}
+
+
 
 div.orange_box{
     background-color: #b97d2d;
     margin: -8px;
     padding: 50px;
-
+    text-align: left;
 }
+
+h2.centered{
+    text-align: center;
+}
+
+
+
+.grey_box_2 {
+    background-color: #23434d;
+    margin: -8px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.grey_box_2 .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h4 {
+    margin: 20px;
+}
+
+input.boton_personalizado {
+    background-color: #b97d2d;
+    border: none;
+    color: white;
+}
+
+
 
 div.white_box{
     background-color: white;
     margin: -8px;
     padding: 25px;
 
+    display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
@@ -31,8 +86,16 @@ div.white_box{
 
 div.box_in_a_box{
     background-color: white;
-    border: 1px solid black;
-    border-radius: 10%;
+    text-align: center;
+    margin: 10px;
     color: black;
+}
 
+
+
+div.grey_box_3 {
+    background-color: #23434d;
+    margin: -8px;
+    padding: 20px;
+    text-align: center; 
 }
